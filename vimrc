@@ -14,6 +14,7 @@ set smartindent
 set wildmode=longest,list,full
 set wildmenu
 
+syntax on
 filetype on
 filetype indent on
 filetype plugin on
