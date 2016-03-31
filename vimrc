@@ -34,6 +34,7 @@ set expandtab
 set textwidth=80
 set colorcolumn=+1
 set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
+set backspace=indent,eol,start
 
 set nu
 set autoindent
@@ -52,6 +53,12 @@ let g:go_highlight_structs = 1
 let g:go_highlight_interfaces = 1
 let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
+
+"neocomplete settings
+" Use neocomplete.
+let g:neocomplete#enable_at_startup = 1
+" Use smartcase.
+" let g:neocomplete#enable_smart_case = 1
 
 "if filereadable("./tags")
 "    set tags=tags
