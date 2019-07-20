@@ -34,6 +34,7 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 colorscheme gruvbox
+set background=dark " enable dark mode of gruvbox
 let g:airline#extensions#tabline#enabled=1
 let g:NERDTreeWinPos="right"
 
@@ -45,6 +46,8 @@ set textwidth=80
 set colorcolumn=+1
 set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 set backspace=indent,eol,start
+set hlsearch
+set list
 set listchars=tab:>-
 
 set nu
